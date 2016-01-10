@@ -16,7 +16,12 @@ app.controller('SignInCtrl', function ($scope, $state, $http, $window) {
 });
 app.controller('homeCtrl', function ($scope, $state, $http, $window) {
 
-
+    $scope.tvchannels = function () {
+        $state.go('tvchannels');
+    }
+    $scope.PreArrival = function () {
+        $state.go('PreArrival');
+    }
 
 
     console.log('home');
@@ -24,9 +29,6 @@ app.controller('homeCtrl', function ($scope, $state, $http, $window) {
 });
 
 app.controller('showqrCtrl', function ($scope, $state, $http, $window) {
-
-
-
     console.log('qr');
 
 });

@@ -58,9 +58,7 @@
                     <button class="button button-royal ion-log-in" ng-click="signIn()">
                         Sign-In
                     </button>
-                    <p class="text-center padding">
-                        <a class="button button-stable" ng-click="registrationclick()">Registration</a>
-                    </p>
+
 
                 </div>
             </ion-content>
@@ -73,7 +71,43 @@
         <ion-view view-title="home">
 
             <ion-content>
+                <div class="list card">
 
+                    <a href="#" class="item item-icon-left" ng-click="tvchannels()">
+                        <i class="icon ion-videocamera"></i> Tv Channels
+                    </a>
+
+                    <a href="#" class="item item-icon-left" ng-click="PreArrival()">
+                        <i class="icon ion-ios-clock"></i> Pre-Arrival
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-checkmark-circled"></i> Check-In / Out
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-card"></i> Guest Service
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-card"></i> Health & fitness
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-model-s"></i> Transportation
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-coffee"></i> Eat & Drink
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-coffee"></i> Business Service
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-card"></i> Meeting & Events
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-information"></i> Information
+                    </a>
+
+                </div>
 
             </ion-content>
 
@@ -85,10 +119,22 @@
 
     <!--    -->
 
-    <script id="templates/showqr.html" type="text/ng-template">
-        <ion-view view-title="showqrCtrl">
+    <script id="templates/tvchannels.html" type="text/ng-template">
+        <ion-view view-title="TV">
 
             <ion-content>
+                <div class="list card">
+
+                    <a href="#" class="item item-icon-left" ng-click="tvchannels()">
+                        <i class="icon ion-videocamera"></i> Tv Guide
+                    </a>
+                    <a href="#" class="item item-icon-left" ng-click="tvchannels()">
+                        <i class="icon ion-videocamera"></i> Local Info
+                    </a>
+
+
+
+                </div>
             </ion-content>
 
         </ion-view>
