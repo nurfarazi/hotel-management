@@ -33,6 +33,9 @@ app.controller('homeCtrl', function ($scope, $state, $http, $window) {
     $scope.health = function () {
         $state.go('health');
     }
+    $scope.car = function () {
+        $state.go('car');
+    }
     console.log('home');
 
 });
