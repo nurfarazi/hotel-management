@@ -23,6 +23,21 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'templates/PreArrival.html',
             controller: 'homeCtrl'
         })
+        .state('checkin', {
+            url: '/home',
+            templateUrl: 'templates/checkin.html',
+            controller: 'homeCtrl'
+        })
+        .state('guestservice', {
+            url: '/home',
+            templateUrl: 'templates/guestservice.html',
+            controller: 'homeCtrl'
+        })
+        .state('health', {
+            url: '/home',
+            templateUrl: 'templates/health.html',
+            controller: 'homeCtrl'
+        })
 
 
     $urlRouterProvider.otherwise('/sign-in');

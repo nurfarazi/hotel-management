@@ -81,14 +81,14 @@
                         <i class="icon ion-ios-clock"></i> Pre-Arrival
                     </a>
 
-                    <a href="#" class="item item-icon-left">
+                    <a href="#" class="item item-icon-left" ng-click="checkin()">
                         <i class="icon ion-checkmark-circled"></i> Check-In / Out
                     </a>
 
-                    <a href="#" class="item item-icon-left">
+                    <a href="#" class="item item-icon-left" ng-click="guestservice()">
                         <i class="icon ion-card"></i> Guest Service
                     </a>
-                    <a href="#" class="item item-icon-left">
+                    <a href="#" class="item item-icon-left" ng-click="health()">
                         <i class="icon ion-card"></i> Health & fitness
                     </a>
                     <a href="#" class="item item-icon-left">
@@ -143,15 +143,101 @@
 
 
     <script id="templates/PreArrival.html" type="text/ng-template">
-        <ion-view view-title="Form">
-
+        <ion-view view-title="Pree arival">
             <ion-content>
+                <div class="list card">
 
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Direction
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Parking
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Special Request
+                    </a>
+                </div>
             </ion-content>
+        </ion-view>
+    </script>
 
 
+    <script id="templates/checkin.html" type="text/ng-template">
+        <ion-view view-title="checkin">
+            <ion-content>
+                <div class="list card">
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Request Early Check - In
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Request Late Check - Out
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Express Check-Out
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Group Chat
+                    </a>
+
+                </div>
+            </ion-content>
+        </ion-view>
+    </script>
 
 
+    <script id="templates/guestservice.html" type="text/ng-template">
+        <ion-view view-title="checkin">
+            <ion-content>
+                <div class="list card">
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Set Wakeup Call
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Housekeeping
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> maintenance / Repair
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i>Bell & Luggage Service
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i>Other Request
+                    </a>
+
+                </div>
+            </ion-content>
+        </ion-view>
+    </script>
+
+
+    <script id="templates/health.html" type="text/ng-template">
+        <ion-view view-title="health">
+            <ion-content>
+                <div class="list card">
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Fitness Center
+                    </a>
+
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Local Fitness Centers
+                    </a>
+                    <a href="#" class="item item-icon-left">
+                        <i class="icon ion-videocamera"></i> Take A Hike
+                    </a>
+
+
+                </div>
+            </ion-content>
         </ion-view>
     </script>
 

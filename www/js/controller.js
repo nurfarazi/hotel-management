@@ -22,6 +22,17 @@ app.controller('homeCtrl', function ($scope, $state, $http, $window) {
     $scope.PreArrival = function () {
         $state.go('PreArrival');
     }
+
+    $scope.checkin = function () {
+        $state.go('checkin');
+    }
+    $scope.guestservice = function () {
+        $state.go('guestservice');
+    }
+
+    $scope.health = function () {
+        $state.go('health');
+    }
     console.log('home');
 
 });
