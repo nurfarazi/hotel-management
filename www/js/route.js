@@ -38,6 +38,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: 'templates/health.html',
             controller: 'homeCtrl'
         })
+        .state('car', {
+            url: '/home',
+            templateUrl: 'templates/car.html',
+            controller: 'homeCtrl'
+        })
 
 
     $urlRouterProvider.otherwise('/sign-in');
